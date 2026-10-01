@@ -1,0 +1,53 @@
+/* Navbar container */
+nav {
+  background-color: #31d159; /* Tailwind's bg-gray-800 */
+  color: white;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Navbar inner container */
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Navbar title */
+nav .title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+/* Navbar links */
+nav .links a {
+  color: white;
+  text-decoration: none;
+  margin-right: 1rem;
+  transition: color 0.3s ease;
+}
+
+nav .links a:hover {
+  color: #d1d5db; /* Tailwind's text-gray-300 */
+}
+
+nav .links a.active {
+  text-decoration: underline;
+}
+
+/* Logout button */
+nav .logout-btn {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: color 0.3s ease;
+}
+
+nav .logout-btn:hover {
+  color: #d1d5db; /* Tailwind's text-gray-300 */
+}

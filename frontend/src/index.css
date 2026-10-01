@@ -1,0 +1,48 @@
+:root {
+  /* === Primary Tints === */
+  --primary-a0: #0d1eb5;
+  --primary-a10: #4235be;
+  --primary-a20: #604dc7;
+  --primary-a30: #7a64d0;
+  --primary-a40: #927dd8;
+  --primary-a50: #a996e0;
+
+  /* === Surface Colors === */
+  --surface-a0: #121212;
+  --surface-a10: #282828;
+  --surface-a20: #3f3f3f;
+  --surface-a30: #575757;
+  --surface-a40: #717171;
+  --surface-a50: #8b8b8b;
+
+  /* === Tonal Surface Colors === */
+  --tonal-a0: #181421;
+  --tonal-a10: #2d2936;
+  --tonal-a20: #44404c;
+  --tonal-a30: #5c5863;
+  --tonal-a40: #75727b;
+  --tonal-a50: #8f8c94;
+}
+
+body{
+  color:#ffffff;
+  background-color: var(--surface-a0);
+    margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.product-list-img{
+  width: 7vw;
+  height: auto;
+  object-fit: cover;
+}
+
